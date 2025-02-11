@@ -1,6 +1,6 @@
 ﻿namespace POO_CSharp_P15.Services
 {
-    internal class BrazilTaxService
+    internal class BrazilTaxService : ITaxService
     {
         public double Tax(double amount)
         {
